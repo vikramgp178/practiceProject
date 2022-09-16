@@ -53,6 +53,7 @@ public class TestCase1 {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.wikipedia.org/");
+		System.out.println("Title is : " +driver.getTitle());
 		driver.manage().window().maximize();
 		driver.quit();
 		System.out.println("driver test case in between");
