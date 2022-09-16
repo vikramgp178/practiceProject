@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4312" started-at="2022-09-16T17:26:09 IST" finished-at="2022-09-16T17:26:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4312" started-at="2022-09-16T17:26:09 IST" finished-at="2022-09-16T17:26:13 IST">
+      <class name="testCases.TestCase1">
+        <test-method status="PASS" signature="doForgot()[pri:0, instance:testCases.TestCase1@15eb5ee5]" name="doForgot" duration-ms="45" started-at="2022-09-16T17:26:09 IST" finished-at="2022-09-16T17:26:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doForgot -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:testCases.TestCase1@15eb5ee5]" name="doLogin" duration-ms="3" started-at="2022-09-16T17:26:09 IST" finished-at="2022-09-16T17:26:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doRegi()[pri:0, instance:testCases.TestCase1@15eb5ee5]" name="doRegi" duration-ms="0" started-at="2022-09-16T17:26:09 IST" finished-at="2022-09-16T17:26:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegi -->
+        <test-method status="PASS" signature="doSkip()[pri:0, instance:testCases.TestCase1@15eb5ee5]" name="doSkip" duration-ms="4" started-at="2022-09-16T17:26:09 IST" finished-at="2022-09-16T17:26:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSkip -->
+        <test-method status="PASS" signature="googletest()[pri:0, instance:testCases.TestCase1@15eb5ee5]" name="googletest" duration-ms="3" started-at="2022-09-16T17:26:09 IST" finished-at="2022-09-16T17:26:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletest -->
+        <test-method status="PASS" signature="wikiTestCase()[pri:0, instance:testCases.TestCase1@15eb5ee5]" name="wikiTestCase" duration-ms="4151" started-at="2022-09-16T17:26:09 IST" finished-at="2022-09-16T17:26:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikiTestCase -->
+      </class> <!-- testCases.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
