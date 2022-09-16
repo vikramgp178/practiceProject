@@ -49,12 +49,16 @@ public class TestCase1 {
 	@Description("wiki test case")
 	@Severity(SeverityLevel.CRITICAL)
 	public void wikiTestCase() throws IOException {
-		System.out.println("driver test case");
+		System.out.println("driver test case start");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.wikipedia.org/");
 		driver.manage().window().maximize();
 		driver.quit();
+		System.out.println("driver test case in between");
+
+		System.out.println("driver test case end");
+
 		/*
 		 * // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		 * driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
